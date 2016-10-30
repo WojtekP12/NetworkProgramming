@@ -1,0 +1,2 @@
+c:\users\wojciech\documents\visual studio 2015\Projects\NetworkProgamming\Server\bin\Debug\Server.exe.config
+C:\Users\Wojciech\Desktop\NetworkProgramming\Server\bin\Debug\Server.exe.config
