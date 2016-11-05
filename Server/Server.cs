@@ -21,10 +21,13 @@ namespace Server
             GetTcpPort();
 
             UDPServer udpServer = new UDPServer(tcpPort);
-            //TCPServer tcpServer = new TCPServer(tcpPort, localIpListForTcp);
+            TCPServer tcpServer = new TCPServer(tcpPort, localIpListForTcp);
 
             //odpowiedz od klienta z komunikatem i nr portu
             udpServer.StartListening();
+            
+            //Tworzenie socketow i watkow dla nasluchu TCP
+            tcpServer.StartTCPListening();
 
             udpServer.ListenThrad.Join();
         }
