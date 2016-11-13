@@ -1,2 +1,7 @@
 c:\users\wojciech\documents\visual studio 2015\Projects\NetworkProgamming\Server\bin\Debug\Server.exe.config
 C:\Users\Wojciech\Desktop\NetworkProgramming\Server\bin\Debug\Server.exe.config
+C:\Users\Wojciech\Desktop\NetworkProgramming\Server\bin\Debug\Server.exe
+C:\Users\Wojciech\Desktop\NetworkProgramming\Server\bin\Debug\Server.pdb
+C:\Users\Wojciech\Desktop\NetworkProgramming\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Wojciech\Desktop\NetworkProgramming\Server\obj\Debug\Server.exe
+C:\Users\Wojciech\Desktop\NetworkProgramming\Server\obj\Debug\Server.pdb
