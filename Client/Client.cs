@@ -288,7 +288,7 @@ namespace Client
 
         private static bool ConnectToPreviousServer(string prevAddress)
         {
-            bool attemptPrevConnection = true;
+            bool attemptPrevConnection = false;
 
             if(ipAddressList.Count!=0)
             {
@@ -309,6 +309,7 @@ namespace Client
                     else if(userInput.ToLower() == "n" || userInput.ToLower()=="nie")
                     {
                         attemptPrevConnection = false;
+                        ipAddressList.Clear();
                     }
                     else
                     {
@@ -356,7 +357,7 @@ namespace Client
             {
                 try
                 {
-
+                    prevAddress = File.ReadLines("ipList.txt").Last();
                 }
                 catch (InvalidOperationException ex)
                 {

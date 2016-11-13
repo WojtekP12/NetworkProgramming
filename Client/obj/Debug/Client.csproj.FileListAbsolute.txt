@@ -1,0 +1,6 @@
+C:\Users\wojciech.pelka\Desktop\NetworkProgramming\Client\bin\Debug\Client.exe.config
+C:\Users\wojciech.pelka\Desktop\NetworkProgramming\Client\bin\Debug\Client.exe
+C:\Users\wojciech.pelka\Desktop\NetworkProgramming\Client\bin\Debug\Client.pdb
+C:\Users\wojciech.pelka\Desktop\NetworkProgramming\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\wojciech.pelka\Desktop\NetworkProgramming\Client\obj\Debug\Client.exe
+C:\Users\wojciech.pelka\Desktop\NetworkProgramming\Client\obj\Debug\Client.pdb

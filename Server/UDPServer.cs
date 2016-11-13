@@ -29,6 +29,7 @@ namespace Server
             try
             {
                 udpClient = new UdpClient();
+                
             }
             catch (SocketException)
             {
@@ -45,6 +46,8 @@ namespace Server
 
             //watek odpowiedzialny za nasluchiwanie na udp 
             ThreadStart udpListenThreadRef = new ThreadStart(Listen);
+            ListenThrad = new Thread(udpListenThreadRef);
+            ListenThrad.Start();
         }
 
         private void Listen()
